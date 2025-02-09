@@ -443,3 +443,13 @@ header {
         font-size: 1.5em;
     }
 }
+
+.banner-silder {
+    padding-top: 120px !important; /* Increased top padding */
+}
+
+@media (max-width: 768px) {
+    .banner-silder {
+        padding-top: 100px !important; /* Slightly less padding on mobile */
+    }
+}
